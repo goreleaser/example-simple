@@ -36,7 +36,7 @@ Enter
 
 Type "goreleaser release --rm-dist"
 Enter
-Sleep 15s
+Sleep 10s
 
 Enter 3
 Type "# That's it! Our release is now available at https://github.com/goreleaser/example-simple/releases/tag/v1.1.0"

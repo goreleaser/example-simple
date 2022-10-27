@@ -1,5 +1,4 @@
-project_name: example-simple
+project_name: example
 builds:
-  - binary: example
-    env: [CGO_ENABLED=0]
+  - env: [CGO_ENABLED=0]
     targets: [go_first_class]
