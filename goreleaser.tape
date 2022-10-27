@@ -44,5 +44,5 @@ Sleep 150ms
 Enter 2
 
 Type "# You can learn more about GoReleaser at https://goreleaser.com 😄"
-Sleep 2000ms
 Enter 2
+Sleep 2000ms
