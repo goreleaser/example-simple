@@ -22,7 +22,7 @@ Sleep 150ms
 Enter 3
 
 Type "# First, let's create a new tag:"
-Sleep 150ms
+Sleep 1
 Enter
 
 Type "git tag v1.1.0 -m release"
