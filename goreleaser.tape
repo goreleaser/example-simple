@@ -22,11 +22,11 @@ Sleep 150ms
 Enter 3
 
 Type "# First, let's create a new tag:"
-Sleep 1
+Sleep 150ms
 Enter
 
 Type "git tag v1.1.0 -m release"
-Sleep 150ms
+Sleep 1
 Enter 3
 
 Type "# Now, we just need to run GoReleaser:"
