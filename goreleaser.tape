@@ -2,7 +2,7 @@ Output goreleaser.gif
 # Output goreleaser.mp4
 # Output goreleaser.webm
 
-Set FontSize 16
+Set FontSize 14
 Set Width 1300
 Set Height 650
 # Set FontFamily "Hack"
