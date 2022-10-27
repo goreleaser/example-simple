@@ -26,8 +26,8 @@ Sleep 150ms
 Enter
 
 Type "git tag v1.1.0 -m release"
-Sleep 1
-Enter 3
+Enter
+Sleep 150ms
 
 Type "# Now, we just need to run GoReleaser:"
 Sleep 150ms
