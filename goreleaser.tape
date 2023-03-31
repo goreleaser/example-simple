@@ -5,8 +5,16 @@ Output goreleaser.gif
 Set FontSize 14
 Set Width 1300
 Set Height 650
+Set WindowBar Colorful
+Set Margin 20
+Set MarginFill "#674EFF"
+Set BorderRadius 10
 # Set FontFamily "Hack"
 
+Hide
+Type "export PATH=/home/carlos/.nix-profile/bin:$PATH; clear"
+Enter
+Show
 # Hide
 # Type "gh release delete v1.1.0 -y; git nuke v1.1.0; clear"
 # Enter
@@ -30,11 +38,20 @@ Enter
 Sleep 150ms
 Enter 3
 
-Type "# Now, we just need to run GoReleaser:"
+Type "# Now, let's be sure we have GoReleaser installed:"
+Sleep 100ms
+Enter
+
+Type "goreleaser --version"
+Enter
 Sleep 150ms
 Enter
 
-Type "goreleaser release --rm-dist"
+Type "# Finally, we need to run GoReleaser:"
+Sleep 150ms
+Enter
+
+Type "goreleaser release --clean"
 Enter
 Sleep 10s
 
@@ -43,6 +60,6 @@ Type "# That's it! Our release is now available at https://github.com/goreleaser
 Sleep 150ms
 Enter 2
 
-Type "# You can learn more about GoReleaser at https://goreleaser.com 😄"
+Type "# 👉 You can learn about GoReleaser, find social profiles, Discord server and more at https://goreleaser.com"
 Enter 2
 Sleep 2000ms
