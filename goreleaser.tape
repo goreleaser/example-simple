@@ -4,7 +4,7 @@ Output goreleaser.gif
 
 Set FontSize 14
 Set Width 1300
-Set Height 650
+Set Height 700
 Set WindowBar Colorful
 Set Margin 20
 Set MarginFill "#674EFF"
@@ -45,7 +45,7 @@ Enter
 Type "goreleaser --version"
 Enter
 Sleep 150ms
-Enter
+Enter 2
 
 Type "# Finally, we need to run GoReleaser:"
 Sleep 150ms
