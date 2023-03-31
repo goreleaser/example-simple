@@ -3,7 +3,7 @@ Output goreleaser.gif
 # Output goreleaser.webm
 
 Set FontSize 14
-Set Width 1300
+Set Width 1400
 Set Height 700
 Set WindowBar Colorful
 Set Margin 20
