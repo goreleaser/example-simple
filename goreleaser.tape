@@ -42,7 +42,7 @@ Enter
 
 Type "goreleaser --version"
 Enter
-Wait+Screen@1s /.*Platform:.*/
+Sleep 250ms
 Enter 2
 
 Type "# Finally, we need to run GoReleaser:"
@@ -51,7 +51,7 @@ Enter
 
 Type "goreleaser release --clean"
 Enter
-Wait+Screen@30s /.*thanks for using goreleaser.*/
+Sleep 10s
 
 Enter 3
 Type "# That's it! Our release is now available at https://github.com/goreleaser/example-simple/releases/tag/v1.1.0"
