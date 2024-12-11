@@ -3,8 +3,8 @@ Output goreleaser.gif
 # Output goreleaser.webm
 
 Set FontSize 14
-Set Width 1500
-Set Height 700
+Set Width 800
+Set Height 600
 Set WindowBar Colorful
 Set BorderRadius 10
 # Set FontFamily "Hack"
