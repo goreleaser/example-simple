@@ -42,7 +42,7 @@ Enter
 
 Type "goreleaser --version"
 Enter
-Sleep 250ms
+Wait+Screen@1s /Platform/
 Enter 2
 
 Type "# Finally, we need to run GoReleaser:"
