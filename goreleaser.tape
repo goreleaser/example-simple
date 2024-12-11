@@ -6,8 +6,6 @@ Set FontSize 14
 Set Width 1500
 Set Height 700
 Set WindowBar Colorful
-Set Margin 20
-Set MarginFill "#674EFF"
 Set BorderRadius 10
 # Set FontFamily "Hack"
 
