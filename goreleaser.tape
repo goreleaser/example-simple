@@ -51,7 +51,7 @@ Enter
 
 Type "goreleaser release --clean"
 Enter
-Wait+screen@30s /thanks for using/
+Wait+Screen@30s /thanks for using/
 
 Enter 3
 Type "# That's it! Our release is now available at https://github.com/goreleaser/example-simple/releases/tag/v1.1.0"
