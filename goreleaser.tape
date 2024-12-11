@@ -19,7 +19,7 @@ Show
 # Sleep 2s
 # Show
 
-Type "# GoReleaser is a release automation tool for Go projects!"
+Type "# GoReleaser is a release automation tool!"
 Sleep 150ms
 Enter 2
 
@@ -42,7 +42,7 @@ Enter
 
 Type "goreleaser --version"
 Enter
-Sleep 150ms
+Sleep 250ms
 Enter 2
 
 Type "# Finally, we need to run GoReleaser:"
