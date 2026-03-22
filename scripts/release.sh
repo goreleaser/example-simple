@@ -1,3 +1,3 @@
 #!/bin/sh
-printf '\033[35m$\033[0m goreleaser release --clean\n'
+printf '\033[32m$\033[0m goreleaser\n'
 goreleaser release --clean
