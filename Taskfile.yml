@@ -13,5 +13,5 @@ tasks:
       - gh release delete v1.1.0 -y || true
       - git nuke v1.1.0 || true
       - git tag v1.1.0 -m release
-      - freeze -c full -o goreleaser.png --execute './scripts/release.sh'
-      - open goreleaser.png
+      - freeze -c full -o goreleaser.svg --execute './scripts/release.sh'
+      - open -a Safari goreleaser.svg
